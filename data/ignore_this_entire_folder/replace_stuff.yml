@@ -1,0 +1,5 @@
+image: node:8.6
+
+stuff_that_is_awesome:
+  - <%= favoriteFood %>
+  - <%= favoriteSnack %>

@@ -1,0 +1,1 @@
+SELECT * FROM <%= projectName %> WHERE PROJECT = 'test'
