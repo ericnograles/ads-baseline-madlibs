@@ -1,8 +1,8 @@
 {
   "valid_files": { 
-    "*.txt": true,
-    "*.sql": true,
-    "*.yml": true
+    "**/*.txt": true,
+    "**/*.sql": true,
+    "**/*.yml": true
   },
   "ignore_files": {
     "**/ignore_me.sql": true,
