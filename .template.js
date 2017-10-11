@@ -1,12 +1,10 @@
-{
-  "valid_files": { 
+module.exports = {
+  "files": { 
     "**/*.txt": true,
     "**/*.sql": true,
-    "**/*.yml": true
-  },
-  "ignore_files": {
-    "**/ignore_me.sql": true,
-    "**/data/ignore_this_entire_folder/**": true
+    "**/*.yml": true,
+    "**/ignore_me.sql": false,
+    "**/data/ignore_this_entire_folder/**": false
   },
   "questions": [
     {
@@ -22,7 +20,7 @@
       "default": "Nutella"
     }
   ],
-  ".env": [
+  "env": [
     {
       "type": "input",
       "name": "SOME_SECRET",
