@@ -6,7 +6,7 @@
   },
   "ignore_files": {
     "**/ignore_me.sql": true,
-    "**/ignore_this_entire_folder/**/*.*": true
+    "**/data/ignore_this_entire_folder/**": true
   },
   "questions": [
     {
