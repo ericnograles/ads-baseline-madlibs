@@ -24,7 +24,7 @@ module.exports = {
     }
   }
   
-  function mapStateToProps(state) {
+  function mapStateToProps(state) { // ch-ch-change
     const { user, routing } = state;
     return {
       user,

@@ -1,7 +1,7 @@
 module.exports = {
   destination: '/sql/',
   source: `
-    SELECT * FROM <%= table %>
+    SELECT * FROM <%= table %> WHERE column = <%= value %>
   `,
   ingredients: [
     {
@@ -15,6 +15,12 @@ module.exports = {
       "name": "table",
       "message": "What is the name of the table you would like to query?",
       "default": "some_table"
+    },
+    {
+      "type": "input",
+      "name": "value",
+      "message": "What is the column value of the query",
+      "default": "1337"
     }
   ]
 }

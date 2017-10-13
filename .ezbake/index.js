@@ -4,7 +4,8 @@ module.exports = {
     "**/*.sql": true,
     "**/*.yml": true,
     "**/ignore_me.sql": false,
-    "**/data/ignore_this_entire_folder/**": false
+    "**/data/ignore_this_entire_folder/**": false,
+    "**/*.sh": true
   },
   ingredients: [
     {
