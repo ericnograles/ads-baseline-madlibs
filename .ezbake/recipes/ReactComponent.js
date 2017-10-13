@@ -1,6 +1,6 @@
 module.exports = {
   destination: '/components/',
-  recipe: `
+  source: `
   import React from 'react';
   import { connect } from 'react-redux';
   import { Redirect, Route } from 'react-router-dom';
@@ -34,7 +34,7 @@ module.exports = {
   
   export default connect(mapStateToProps)(<%= componentName %>);  
   `,
-  questions: [
+  ingredients: [
     {
       "type": "input",
       "name": "fileName",

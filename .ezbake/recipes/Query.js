@@ -1,9 +1,9 @@
 module.exports = {
   destination: '/sql/',
-  recipe: `
+  source: `
     SELECT * FROM <%= table %>
   `,
-  questions: [
+  ingredients: [
     {
       "type": "input",
       "name": "fileName",

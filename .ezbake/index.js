@@ -1,12 +1,12 @@
 module.exports = {
-  "files": { 
+  source: { 
     "**/*.txt": true,
     "**/*.sql": true,
     "**/*.yml": true,
     "**/ignore_me.sql": false,
     "**/data/ignore_this_entire_folder/**": false
   },
-  "questions": [
+  ingredients: [
     {
       "type": "input",
       "name": "favoriteFood",
