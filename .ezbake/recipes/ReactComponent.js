@@ -36,16 +36,16 @@ module.exports = {
   `,
   ingredients: [
     {
-      "type": "input",
-      "name": "fileName",
-      "message": "What would you like this React Component to be named?",
-      "default": "MyComponent.js"
+      type: "input",
+      name: "fileName",
+      message: "What filename would you like to assign this component?",
+      default: "MyComponent.js"
     },
     {
-      "type": "input",
-      "name": "componentName",
-      "message": "What is the name of the component you would like to create?",
-      "default": "MyComponent"
+      type: "input",
+      name: "componentName",
+      message: "What is the name of this React component?",
+      default: "MyComponent"
     }
   ]
 }
