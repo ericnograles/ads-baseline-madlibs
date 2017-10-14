@@ -1,7 +1,7 @@
 module.exports = [
   {
     description: 'Says a tongue twister',
-    cmd: ['say', '"how much would could a woodchuck chuck if a woodchuck could chuck wood"']
+    cmd: ['say', '"how much would could a woodchuck chuck if a woodchuck could chuck wood. from my recipe."']
   },
   {
     description: `Says that the job is done`,
