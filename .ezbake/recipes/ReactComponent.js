@@ -1,4 +1,5 @@
 module.exports = {
+  description: 'A sample React file',
   destination: '/components/',
   source: `
   import React from 'react';

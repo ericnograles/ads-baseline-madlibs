@@ -1,4 +1,5 @@
 module.exports = {
+  description: 'A sample SQL file',
   destination: '/sql/',
   source: `
     SELECT * FROM <%= table %> WHERE column = <%= value %>
