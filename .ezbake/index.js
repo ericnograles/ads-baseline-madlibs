@@ -28,5 +28,15 @@ module.exports = {
       "message": "Please specify a value for SOME_SECRET for the .env file",
       "default": "its_def_a_secret"
     }
+  ],
+  icing: [
+    {
+      description: 'Says a tongue twister',
+      cmd: ['say', '"how much would could a woodchuck chuck if a woodchuck could chuck wood"']
+    },
+    {
+      description: 'Says a tongue twister',
+      cmd: ['echo', `"job's done"`]
+    }
   ]
 }
