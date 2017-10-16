@@ -3,6 +3,7 @@ module.exports = {
     "**/*.txt": true,
     "**/*.sql": true,
     "**/*.yml": true,
+    "**/*.js": true,
     "**/ignore_me.sql": false,
     "**/data/ignore_this_entire_folder/**": false,
     "**/*.sh": true
@@ -24,9 +25,9 @@ module.exports = {
   "env": [
     {
       "type": "input",
-      "name": "SOME_SECRET",
-      "message": "Please specify a value for SOME_SECRET for the .env file",
-      "default": "its_def_a_secret"
+      "name": "FACEBOOK_API_TOKEN",
+      "message": "Please specify a Facebook API token for the .env file",
+      "default": "12345"
     }
   ],
   icing: [
@@ -35,8 +36,8 @@ module.exports = {
       cmd: ['./icing.sh']
     },
     {
-      description: 'Tells me the job is done',
-      cmd: ['echo', `job's done`]
+      description: 'Calls out to Facebook',
+      cmd: ['node', `web_api_icing.js`]
     }
   ]
 }

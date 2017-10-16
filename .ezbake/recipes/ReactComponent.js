@@ -51,11 +51,11 @@ module.exports = {
   ],
   icing: [
     {
-      description: 'Says a tongue twister',
-      cmd: ['say', '"how much would could a woodchuck chuck if a woodchuck could chuck wood"']
+      description: 'Calls out to Facebook',
+      cmd: ['node', 'web_api_icing.js']
     },
     {
-      description: 'Says a tongue twister',
+      description: 'Says a job is done',
       cmd: ['echo', `"job's done"`]
     }
   ]

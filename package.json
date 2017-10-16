@@ -1,0 +1,14 @@
+{
+  "name": "ads-baseline-madlibs",
+  "version": "1.0.0",
+  "description": "A sample of an ezbaked project",
+  "main": "index.js",
+  "repository": "https://github.com/ericnograles/ads-baseline-madlibs.git",
+  "author": "Eric Nograles <grales@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "r2": "^2.0.0"
+  }
+}
