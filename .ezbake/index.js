@@ -36,6 +36,10 @@ module.exports = {
       cmd: ['./icing.sh']
     },
     {
+      description: 'Does a Yarn install',
+      cmd: ['yarn', 'install']
+    },
+    {
       description: 'Calls out to Facebook',
       cmd: ['node', `web_api_icing.js`]
     }
