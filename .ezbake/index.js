@@ -20,6 +20,12 @@ module.exports = {
       "name": "favoriteSnack",
       "message": "What is your favorite snack?",
       "default": "Nutella"
+    },
+    {
+      type: "input",
+      name: "messageToUser",
+      message: "Say something to the user: ",
+      default: "You have just scaffolded the madlibs example. May the odds be ever in your favor."
     }
   ],
   "env": [
@@ -36,9 +42,14 @@ module.exports = {
       cmd: ['./icing.sh']
     },
     {
+      description: 'Says something to the user',
+      cmd: ['say', '"<%= messageToUser %>"']
+    },
+    {
       description: 'Does a Yarn install',
       cmd: ['yarn', 'install']
     },
+    
     {
       description: 'Calls out to Facebook',
       cmd: ['node', `web_api_icing.js`]

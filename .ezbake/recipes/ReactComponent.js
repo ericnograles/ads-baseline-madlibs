@@ -47,6 +47,12 @@ module.exports = {
       name: "componentName",
       message: "What is the name of this React component?",
       default: "MyComponent"
+    },
+    {
+      type: "input",
+      name: "messageToUser",
+      message: "Say something to the user: ",
+      default: "You have just created a React Component. May the odds be ever in your favor."
     }
   ],
   icing: [
@@ -55,8 +61,8 @@ module.exports = {
       cmd: ['node', 'web_api_icing.js']
     },
     {
-      description: 'Says a job is done',
-      cmd: ['echo', `"job's done"`]
+      description: 'Says something to the user',
+      cmd: ['say', `"<%= messageToUser %>"`]
     }
   ]
 }
