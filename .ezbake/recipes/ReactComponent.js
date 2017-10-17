@@ -39,12 +39,6 @@ module.exports = {
   ingredients: [
     {
       type: "input",
-      name: "fileName",
-      message: "What filename would you like to assign this component?",
-      default: "MyComponent.js"
-    },
-    {
-      type: "input",
       name: "componentName",
       message: "What is the name of this React component?",
       default: "MyComponent"
