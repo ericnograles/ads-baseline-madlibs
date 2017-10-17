@@ -1,5 +1,6 @@
 module.exports = {
   description: 'A sample SQL file for OtherQuery',
+  defaultFileName: `other-query.sql`,
   destination: '/sql/',
   source: `
     SELECT * FROM <%= table %> WHERE column = <%= value %> AND value = 1

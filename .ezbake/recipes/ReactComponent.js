@@ -1,5 +1,6 @@
 module.exports = {
   description: 'A sample React file',
+  defaultFileName: `Component.js`,
   destination: '/components/',
   source: `
   import React from 'react';

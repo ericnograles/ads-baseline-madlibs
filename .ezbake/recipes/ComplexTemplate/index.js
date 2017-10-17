@@ -1,5 +1,6 @@
 module.exports = {
-  description: 'A complicated template',
+  description: 'A complex template',
+  defaultFileName: `complex-template.html`,
   destination: '/template/',
   source: require('./source'),
   ingredients: require('./ingredients'),
